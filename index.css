@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg, #fedc00, #837cb2);
+    background: linear-gradient(135deg, #153677, #4e085f);
 
     display: flex;
     justify-content: center;
@@ -7,10 +7,12 @@ body {
 }
 
 .big {
-    border-radius: 20px;
+    width: 100%;
+    max-width: 540px;
+    border-radius: 10px;
     border: 1px solid black;
-    padding: 15px;
-    margin-top: 50px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
     background-color: white;
 }
 
@@ -33,4 +35,34 @@ body {
 .img img {
     width: 20px;
     height: 20px;
+}
+
+.ib {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    background-color: #edeef0;
+}
+
+.input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: 14px;
+
+}
+
+.btn {
+    border: none;
+    border-radius: 40px;
+    padding: 15px 50px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+
 }
